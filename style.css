@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  color: black;
+}
+
+.navbar {
+  background: #24598e;
+  height: 43px;
+}
+
+.nav-inner {
+  width: 1025px;
+  margin-left: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 43px;
+}
+
+.name {
+  color: white;
+  font-size: 16px;
+}
+
+nav a {
+  color: #b8c7d9;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.page {
+  width: 888px;
+  margin-left: 69px;
+  padding-top: 36px;
+}
+
+.intro {
+  display: flex;
+  gap: 44px;
+  margin-bottom: 50px;
+}
+
+.profile {
+  width: 183px;
+  height: 185px;
+  object-fit: cover;
+}
+
+.bio {
+  width: 670px;
+}
+
+.bio h3 {
+  margin-top: 4px;
+  margin-bottom: 18px;
+}
+
+p,
+li {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0 0 25px;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.item {
+  display: flex;
+  gap: 24px;
+  border-top: 1px solid #ddd;
+  padding: 14px 0;
+}
+
+.item:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.item img {
+  width: 202px;
+  height: 114px;
+  object-fit: cover;
+  border: 1px solid #222;
+}
+
+.item p {
+  margin: 0 0 3px;
+}
+
+a {
+  color: #0033aa;
+  text-decoration: none;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 16px 0 30px;
+}
+
+.experience:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+.experience div {
+  width: 670px;
+}
+
+.experience img {
+  width: 128px;
+  max-height: 128px;
+  object-fit: contain;
+}
+
+ul {
+  padding-left: 32px;
+}
+
+@media (max-width: 900px) {
+  .nav-inner,
+  .page {
+    width: auto;
+    margin: 0 20px;
+  }
+
+  .intro,
+  .item,
+  .experience {
+    flex-direction: column;
+  }
+
+  .bio,
+  .experience div {
+    width: 100%;
+  }
+}
+
+.item img.school-logo {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  border: none;
+  align-self: flex-start;
+}
+
+.item img.project-logo {
+  width: 200px;
+  height: auto;
+  object-fit: contain;
+  border: none;
+  align-self: flex-start;
+}
