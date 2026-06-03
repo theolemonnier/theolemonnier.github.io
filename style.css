@@ -6,8 +6,10 @@ body {
 }
 
 .navbar {
-  background: #24598e;
-  height: 43px;
+  background: #31588C;
+  height: 50px;
+  border-bottom: 1px solid #dfe3e8;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
 .nav-inner {
@@ -16,19 +18,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 43px;
+  height: 50px;
 }
 
 .name {
   color: white;
   font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
 }
 
 nav a {
-  color: #b8c7d9;
+  color: #d7dde5;
   text-decoration: none;
   font-size: 12px;
-  margin-left: 15px;
+  margin-left: 18px;
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
